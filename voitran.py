@@ -16,33 +16,3 @@ except sr.RequestError as e:
 çevirmen = Translator(to_lang = "tr")
 yazı = çevirmen.translate(r.recognize_google(audio))
 print(r.recognize_google(audio),"----->",yazı)
-
-                            
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
